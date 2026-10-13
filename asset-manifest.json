@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rekonik/static/css/main.d14a7456.css",
-    "main.js": "/rekonik/static/js/main.3b07806e.js",
+    "main.css": "/rekonik/static/css/main.8469b7f8.css",
+    "main.js": "/rekonik/static/js/main.0e84596c.js",
     "static/media/BMFTR.png": "/rekonik/static/media/BMFTR.cd7d0cd891115d35827f.png",
     "static/media/Marquardt.jpg": "/rekonik/static/media/Marquardt.69b379fd9045418b5adf.jpg",
     "static/media/university.webp": "/rekonik/static/media/university.6ca12b42223c8ebd3c5d.webp",
@@ -12,11 +12,11 @@
     "static/media/fraunhofer.png": "/rekonik/static/media/fraunhofer.922662595d4095c1edf3.png",
     "static/media/sie-logo-petrol-rgb.png": "/rekonik/static/media/sie-logo-petrol-rgb.5dbd0bc990b4583bf864.png",
     "index.html": "/rekonik/index.html",
-    "main.d14a7456.css.map": "/rekonik/static/css/main.d14a7456.css.map",
-    "main.3b07806e.js.map": "/rekonik/static/js/main.3b07806e.js.map"
+    "main.8469b7f8.css.map": "/rekonik/static/css/main.8469b7f8.css.map",
+    "main.0e84596c.js.map": "/rekonik/static/js/main.0e84596c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d14a7456.css",
-    "static/js/main.3b07806e.js"
+    "static/css/main.8469b7f8.css",
+    "static/js/main.0e84596c.js"
   ]
 }
