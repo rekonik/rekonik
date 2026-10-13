@@ -43,12 +43,14 @@ export default function FundingSection() {
 
                         <div className="detail-row">
                             <strong>Förderkennzeichen:</strong>
-                            <span>[FKZ]</span>
+                            <span>02L24C160</span>
                         </div>
 
                         <div className="detail-row">
                             <strong>Projektträger:</strong>
-                            <span>[Projektträger]</span>
+                            <a href="https://www.ptka.kit.edu/index.html">
+                                Projektträger Karlsruhe (PTKA)</a>
+
                         </div>
                     </div>
                 </div>

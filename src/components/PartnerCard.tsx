@@ -35,11 +35,6 @@ export default function PartnerCard({
                         {partner.business}
                     </p>
 
-                    <p>
-                        <strong>Mitarbeiteranzahl:</strong>{" "}
-                        {partner.employees}
-                    </p>
-
                     <h3>Kompetenzen / Produkte</h3>
 
                     <ul>
@@ -63,10 +58,17 @@ export default function PartnerCard({
                             <li key={item}>{item}</li>
                         ))}
                     </ul>
-                    <p>
-                        <strong>Ansprechpartner:</strong>{" "}
-                        {partner.contact}
-                    </p>
+
+                    <h3>Ansprechpartner:</h3>
+                    <ul>
+                        {partner.contact.map((item) => (
+                            <li key={item.email}>{item.name}:{" "}
+                                <a href={`mailto:${item.email}`}>
+                                    {item.email}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
 
                 </Col>
 

@@ -3,10 +3,12 @@ export interface Partner {
     name: string;
     logo: string;
     business: string;
-    employees: string;
 
     competencies: string[];
     role: string[];
     goals: string[];
-    contact: string;
+    contact: {
+        name: string;
+        email: string;
+    }[];
 }

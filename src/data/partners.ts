@@ -16,7 +16,6 @@ export const partners: Partner[] = [
         logo: twtLogo,
         business:
             "Information Technologies, Systems Engineering and Mathematics",
-        employees: "[einfügen]",
         competencies: [
             "Model Based Systems Engineering, digitale Produktentwicklung",
             "KI-Plattformen und generative KI-Methoden (u. a. FORMALIS)",
@@ -29,7 +28,16 @@ export const partners: Partner[] = [
             "Prototyp eines KI-Assistenten für die Modellierung und Nachweis seiner Wirksamkeit",
             "Transfer der Ergebnisse in KMU über einen KMU-Anwenderkreis",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Dr. Martin Obstbaum",
+                email: "martin.obstbaum@twt-gmbh.de",
+            },
+            {
+                name: "Johannes Iglhaut",
+                email: "johannes.iglhaut@twt-gmbh.de",
+            },
+        ],
     },
 
     {
@@ -38,7 +46,6 @@ export const partners: Partner[] = [
         logo: fraunhoferLogo,
         business:
             "Angewandte Forschung – Arbeitswirtschaft und Organisation",
-        employees: "[einfügen]",
         competencies: [
             "Arbeitswissenschaft, Organisationsgestaltung,Resilienzforschung ",
             "Vorarbeiten u. a. Wertstromengineering und Flexibler Personaleinsatz",
@@ -50,7 +57,16 @@ export const partners: Partner[] = [
             "Resilienz-Rahmenkonzept für Analyse und Transformation auf Team- und Organisationsebene",
             "Indikatoren für die kontinuierliche Analyse und Optimierung der Resilienz in den ITO-Ebenen",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Mehmet Kürümlüoglu",
+                email: "mehmet.kueruemlueoglu@iao.fraunhofer.de"
+            },
+            {
+                name: "Benjamin Schneider",
+                email: "benjamin.schneider@iao.fraunhofer.de",
+            },
+        ],
     },
 
     {
@@ -60,7 +76,6 @@ export const partners: Partner[] = [
         logo: universityLogo,
         business:
             "Forschung und Lehre",
-        employees: "[einfügen]",
         competencies: [
             "Modellbasierte Produktentwicklung, industrielle Informationstechnik",
             "Systemmodellierung mit SysML v1/v2, KI in der Produktentstehung",
@@ -72,7 +87,16 @@ export const partners: Partner[] = [
             "Generierung von Architekturmodellen mit Large Language Models (SysML v1 → SysML v2)",
             "Kombination generativer KI mit formalen Methoden und Knowledge Graphs",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Dr. Carina Fresemann",
+                email: " carina.fresemann@tu-berlin.de",
+            },
+            {
+                name: "Zhenghan Zhang",
+                email: "zhang@tu-berlin.de",
+            },
+        ],
     },
 
     {
@@ -81,7 +105,6 @@ export const partners: Partner[] = [
         logo: youseLogo,
         business:
             " User-Centered Design & Innovationsforschung",
-        employees: "[einfügen]",
         competencies: [
             "Partizipative Methoden, Design Futuring, nutzerzentrierte Entwicklung",
         ],
@@ -92,7 +115,16 @@ export const partners: Partner[] = [
             "Training antizipatorischer Kompetenzen auf Mitarbeiter- und Teamebene",
             "Einheitliche Leitbilder (Zukunftsszenarien) für die KI-gestützte Organisation und Arbeit",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Jantje Meinzer",
+                email: "jantje.meinzer@youse.de",
+            },
+            {
+                name: "Lina Figueiredo",
+                email: "lina.figueiredo@youse.de",
+            },
+        ],
     },
 
     {
@@ -101,7 +133,6 @@ export const partners: Partner[] = [
         logo: marquardtLogo,
         business:
             "Automobilzulieferer (Tier 1) – Zutrittssysteme, Ladesysteme für E-Mobilität",
-        employees: "[einfügen]",
         competencies: [
             "Mechatronische Systeme und Software im SDV-Ökosystem",
         ],
@@ -112,7 +143,16 @@ export const partners: Partner[] = [
             "Durchgängigkeit von der Kundenfunktion bis in die einzelne Fachdomäne über transdisziplinäre Architekturmodelle",
             "Stärkung der persönlichen Resilienz der Modellierungsverantwortlichen und der Zusammenarbeit der Entwicklungsteams",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Alexander Schneider",
+                email: "alexander.schneider@marquardt.com",
+            },
+            {
+                name: "Stefan Häuser",
+                email: "stefan.haeuser@marquardt.com",
+            },
+        ],
     },
 
     {
@@ -121,7 +161,6 @@ export const partners: Partner[] = [
         logo: siemensLogo,
         business:
             "Technologiekonzern – Fokus im Projekt: komplexe medizinische Geräte",
-        employees: "[einfügen]",
         competencies: [
             "Entwicklung komplexer Systeme, u. a. Computertomographen",
         ],
@@ -133,7 +172,16 @@ export const partners: Partner[] = [
             "Resilienz in der disziplinübergreifenden Zusammenarbeit trotz heterogener Modellierungssprachen",
             "Gesteigerte Reaktions- und Handlungsfähigkeit auf Mitarbeiter- und Organisationsebene",
         ],
-        contact: "Contact person",
+        contact: [
+            {
+                name: "Dr. Rohit Gupta",
+                email: "rg.gupta@siemens.com",
+            },
+            {
+                name: "Nikolaus Regnat",
+                email: "nikolaus.regnat@siemens.com",
+            },
+        ],
     },
 
     {
@@ -142,7 +190,6 @@ export const partners: Partner[] = [
         logo: kassbohrerLogo,
         business:
             "Nutzfahrzeugbau – Sattelauflieger in vielfältigen Varianten",
-        employees: "[einfügen]",
         competencies: [
             "Kundenindividuelle Konfiguration und Fertigung von Silofahrzeugen",
         ],
@@ -153,6 +200,6 @@ export const partners: Partner[] = [
             "Disziplinübergreifende, modellbasierte Zusammenarbeit zwischen Vertrieb, Produktentwicklung, Produktion und Service",
             "Handlungsfähigkeit gegenüber langfristigen Störereignissen wie dem Wandel zur E-Mobilität",
         ],
-        contact: "Contact person",
+        contact: [{ name: "Contact person", email: "email@contactperson.de" },],
     },
 ];

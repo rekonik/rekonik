@@ -325,6 +325,16 @@ section {
 
 }
 
+.partner-card a {
+  color: #6fd6a8;
+  text-decoration: none;
+}
+
+.partner-card a:hover {
+  color: #249b6d;
+  text-decoration: underline;
+}
+
 /* =====================
    FUNDING
 ===================== */
