@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rekonik/static/css/main.8469b7f8.css",
-    "main.js": "/rekonik/static/js/main.0e84596c.js",
+    "main.js": "/rekonik/static/js/main.98a13e3f.js",
     "static/media/BMFTR.png": "/rekonik/static/media/BMFTR.cd7d0cd891115d35827f.png",
     "static/media/Marquardt.jpg": "/rekonik/static/media/Marquardt.69b379fd9045418b5adf.jpg",
     "static/media/university.webp": "/rekonik/static/media/university.6ca12b42223c8ebd3c5d.webp",
@@ -13,10 +13,10 @@
     "static/media/sie-logo-petrol-rgb.png": "/rekonik/static/media/sie-logo-petrol-rgb.5dbd0bc990b4583bf864.png",
     "index.html": "/rekonik/index.html",
     "main.8469b7f8.css.map": "/rekonik/static/css/main.8469b7f8.css.map",
-    "main.0e84596c.js.map": "/rekonik/static/js/main.0e84596c.js.map"
+    "main.98a13e3f.js.map": "/rekonik/static/js/main.98a13e3f.js.map"
   },
   "entrypoints": [
     "static/css/main.8469b7f8.css",
-    "static/js/main.0e84596c.js"
+    "static/js/main.98a13e3f.js"
   ]
 }
