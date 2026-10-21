@@ -200,6 +200,6 @@ export const partners: Partner[] = [
             "Disziplinübergreifende, modellbasierte Zusammenarbeit zwischen Vertrieb, Produktentwicklung, Produktion und Service",
             "Handlungsfähigkeit gegenüber langfristigen Störereignissen wie dem Wandel zur E-Mobilität",
         ],
-        contact: [{ name: "Contact person", email: "email@contactperson.de" },],
+        contact: [],
     },
 ];
